@@ -6,6 +6,8 @@ import { Pagination, Autoplay } from "swiper/modules";
 import { ArrowUpRight } from "lucide-react";
 
 const blogs = [
+
+  
   {
     title: "Artificial Intelligence in healthcare",
     desc: "At accumsan condimentum donec dictumst eros, tempus in diam. Ornae gravida quis eu blandit lectus vestibulum sagittis. Congue neque in vulputate tincidunt ornare curabitur pulvinar.",
