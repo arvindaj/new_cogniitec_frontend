@@ -1,0 +1,36 @@
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Home from "../pages/Home/Home.jsx";
+import Contactus from "../../src/pages/Contactus/Contactus.jsx";
+import Navbar from "../layouts/navbar.jsx";
+import Footer from "../layouts/footer.jsx";
+import About from "../pages/About/About.jsx";
+import Services from "../pages/Services/Services.jsx";
+import Blogs from "../pages/Blogs/blogs.jsx";
+import BlogsDetails from "../components/blog/BlogsDetails.jsx";
+function AppRouter() {
+  return (
+    <>
+      {" "}
+      <Navbar />
+      <Router>
+        <Routes>
+          {/* Layout wrapper */}
+          <Route>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact-us" element={<Contactus />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/blog" element={<Blogs />} />
+            <Route path="/blogdetials" element={<BlogsDetails />} />
+          </Route>
+
+          {/* 404 Page */}
+          {/* <Route path="*" element={<NotFound />} /> */}
+        </Routes>
+      </Router>
+      <Footer />
+    </>
+  );
+}
+
+export default AppRouter;
