@@ -6,6 +6,7 @@ import Footer from "../layouts/footer.jsx";
 import About from "../pages/About/About.jsx";
 import Services from "../pages/Services/Services.jsx";
 import BlogsDetails from "../components/blog/BlogsDetails.jsx";
+import Blogs from "../pages/Blogs/Blogs.jsx";
 function AppRouter() {
   return (
     <>

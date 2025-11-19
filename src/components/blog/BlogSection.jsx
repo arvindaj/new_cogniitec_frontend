@@ -5,10 +5,8 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper/modules";
 import { ArrowUpRight } from "lucide-react";
 
-const Blog = () => {
-
-
-const blogs = [
+const BlogSection = () => {
+ const blogs = [
   {
     title: "Artificial Intelligence in healthcare",
     desc: "At accumsan condimentum donec dictumst eros, tempus in diam. Ornae gravida quis eu blandit lectus vestibulum sagittis. Congue neque in vulputate tincidunt ornare curabitur pulvinar.",
@@ -164,4 +162,4 @@ const blogs = [
   )
 }
 
-export default Blog
+export default BlogSection
